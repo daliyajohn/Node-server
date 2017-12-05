@@ -4,7 +4,7 @@
   "description": "Backend for ngrx project",
   "main": "app.js",
   "scripts": {
-    "start":"node app",
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/daliyajohn/Node-server/issues"
   },
-  "homepage": "https://github.com/daliyajohn/Node-server#readme"
+  "homepage": "https://github.com/daliyajohn/Node-server#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
